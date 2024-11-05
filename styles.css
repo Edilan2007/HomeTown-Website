@@ -1,0 +1,81 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero{
+    background-image: url("images/yaounde.png");
+    background-size: cover;
+    height: 450px;
+    margin: 0;
+    color: #1d4535;
+}
+.title {
+    margin: 30px 300px;
+    background-color: #95d5b2;
+    border-radius: 5px;
+}
+.subTitle {
+    margin: 30px 160px;
+    background-color: #d8f3dc;
+    border-radius: 10px;
+}
+.heading{
+    padding-top: 130px;
+}
+h3{
+    padding-top: 25px;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px  15px 30px 15px;
+}
+.card{
+    padding: 0 30px;
+}
+.area{
+    border-radius: 50%;
+}
+.text{
+    font-weight: 300;
+}
+#activities{
+    background-color: #d8f3dc;
+    margin-bottom: 50px;
+}
+.myCard{
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #40916c;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #ffa62b;
+    margin-bottom: 50px;
+}
+.avatar {
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #ede7e3;
+    margin-right: 5px;
+}
